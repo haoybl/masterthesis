@@ -19,28 +19,28 @@ OVERVIEW OF THE FOLDERS
 
 OVERVIEW OF THE FILES
 .dataset
-- ‘test.csv’ [test set]
-- ‘train-development.cv’ [train and development set]
-.experiments
-- ‘Image to vector.py’ [script to match movie poster vectors to dataset]
-- ’N-grams.py’
-- ‘Paragraph Vector.py’
-- ‘pos_tagging.py’
-- ‘stemming+lemmatization.py’
-- ‘Word Embeddings.py’
-.final models
-- ‘final.py’ [best performing model fully written out]
-- ‘other.py’ [all models]
-.scraper
--‘scraper_omdb.py’
--‘movie_input.csv’
-.vectors
-- ‘dev-posters.pkl’ [train and development set posters]
-- ‘eval-posters.pkl’ [test set posters]
-- ‘pv_test.pkl’	[test set Paragraph Vector]
-- ‘pv_train.pkl’	[train set Paragraph Vector]
-- ‘wordembeddings-dev.pkl’ [train and development set Word Embeddings]
-- ‘word_eval.pkl’ [test set Word Embeddings]
+-   ‘test.csv’ [test set]
+-   ‘train-development.cv’ [train and development set]
+- experiments
+-   ‘Image to vector.py’ [script to match movie poster vectors to dataset]
+-   ’N-grams.py’
+-   ‘Paragraph Vector.py’
+-   ‘pos_tagging.py’
+-   ‘stemming+lemmatization.py’
+-   ‘Word Embeddings.py’
+-   final models
+-   ‘final.py’ [best performing model fully written out]
+-   ‘other.py’ [all models]
+- scraper
+-   ‘scraper_omdb.py’
+-   ‘movie_input.csv’
+- vectors
+-   ‘dev-posters.pkl’ [train and development set posters]
+-   ‘eval-posters.pkl’ [test set posters]
+-   ‘pv_test.pkl’	[test set Paragraph Vector]
+-   ‘pv_train.pkl’	[train set Paragraph Vector]
+-   ‘wordembeddings-dev.pkl’ [train and development set Word Embeddings]
+-   ‘word_eval.pkl’ [test set Word Embeddings]
 
 REQUIRED LIBRARIES
 - Scikit-learn
