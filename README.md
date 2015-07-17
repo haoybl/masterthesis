@@ -18,10 +18,10 @@ OVERVIEW OF THE FOLDERS
 - vectors [Contains the vectors that are created in the experiments by the feature extraction methods. These vectors can be imported in ‘Other.py’ to construct the final models.].
 
 OVERVIEW OF THE FILES
-.dataset
+- /DATASET
 -   ‘test.csv’ [test set]
 -   ‘train-development.cv’ [train and development set]
-- experiments
+- /EXPERIMENTS
 -   ‘Image to vector.py’ [script to match movie poster vectors to dataset]
 -   ’N-grams.py’
 -   ‘Paragraph Vector.py’
@@ -31,10 +31,10 @@ OVERVIEW OF THE FILES
 -   final models
 -   ‘final.py’ [best performing model fully written out]
 -   ‘other.py’ [all models]
-- scraper
+- /SCRAPER
 -   ‘scraper_omdb.py’
 -   ‘movie_input.csv’
-- vectors
+- /VECTORS
 -   ‘dev-posters.pkl’ [train and development set posters]
 -   ‘eval-posters.pkl’ [test set posters]
 -   ‘pv_test.pkl’	[test set Paragraph Vector]
