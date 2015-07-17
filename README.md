@@ -15,7 +15,7 @@ OVERVIEW OF THE FOLDERS
 - experiments [Contains all experiments conducted in this research. These scripts save the vectors into Pickle files]
 - final models [‘final.py’ contains the best performing model fully written out. ‘Other.py’ all final models. Different models can be made using ‘Other.py’ by adding or commenting the Pickle files from the features.]
 - scraper [Contains the script that has been used to fetch the data set using the OMDb API]
-- vectors [Contains the vectors that are created in the experiments by the feature extraction methods. These vectors can be imported in ‘Other.py’ to construct the final models.].
+- vectors [Contains the vectors that are created in the experiments by the feature extraction methods. These vectors can be imported in ‘Other.py’ to construct the final models.]. Due to the limitations of Github, the vectors are available at http://macxpert.nl/pub/vectors.zip.
 
 OVERVIEW OF THE FILES
 - /DATASET
@@ -34,7 +34,7 @@ OVERVIEW OF THE FILES
 - /SCRAPER
 -   ‘scraper_omdb.py’
 -   ‘movie_input.csv’
-- /VECTORS
+- /VECTORS [http://macxpert.nl/pub/vectors.zip]
 -   ‘dev-posters.pkl’ [train and development set posters]
 -   ‘eval-posters.pkl’ [test set posters]
 -   ‘pv_test.pkl’	[test set Paragraph Vector]
